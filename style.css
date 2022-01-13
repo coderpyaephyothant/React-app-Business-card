@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter,sans-serif;
+    
+    width: 550px;
+    height: 868px;
+}
+.nav {
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background-color: #23252C;
+    padding-left: 116px;
+    padding-top: 44px;
+    padding-right: 117px;
+
+}
+
+.appdiv {
+    background-color: #1A1B21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 317px;
+    
+}
+
+
+.myname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.myname > h1 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ffff;
+    margin-bottom: 0px;
+    
+}
+
+.myname > h3 {
+    margin-top: 0px;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+    font-weight: normal;
+    margin-bottom: 0px
+}
+
+.myname > h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin-top: 8.81px;
+    color: #F5F5F5;
+    margin-bottom: 0px
+}
+
+.myprofile {
+    margin-top: 44px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.EmailContainer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 13px 9px 11px;
+    margin-right: 17px;
+    border-radius: 6px;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 0px;
+}
+.EmailContainer:active {
+    background-color: #ffffff50;
+}
+
+.EmailContainer > i {
+    margin-right: 9.6px;
+    font-size: 10px;
+}
+
+.EmailContainer > span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+}
+
+.LinkedInContainer{
+    background-color: #5093E2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.LinkedInContainer > i {
+    background-color: #FFFFFF;
+    font-size: 15px;
+    margin-right: 9.6px;
+}
+
+.LinkedInContainer > span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.LinkedInContainer:active {
+    background-color: #5093E250;
+}
+
+
+.buttonLink{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 33px;
+    background-color: #1A1B21;
+    
+   
+}
+
+.secBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1B21;
+    flex-direction: column;
+    padding-left: 36px
+}
+
+.about {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-left: 36px;
+    
+}
+
+.para1{
+    margin-left: 36px;
+    margin-right: 34px;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin-bottom: 27px;
+}
+
+.interest {
+    margin-left: 36px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.para2 {
+    margin-left: 36px;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin-right: 34px;
+    margin-bottom: 34px;
+}
+
+.social {
+    width: 317px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.social > .fab {
+    font-size: 30px;
+    color: #ffff;
+    margin-left: 24px;
+}
